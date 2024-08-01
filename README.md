@@ -28,7 +28,7 @@ To get started with DeepSegment, follow these steps:
    ```
 
 3. **Download datasets:**
-   Place your datasets in the `datasets` directory or specify their path in the configuration files.
+   Place your datasets in the `data` directory or specify their path in the configuration files.
 
 ## Usage
 
@@ -51,16 +51,8 @@ datasets/
 ### Training
 Train the model using the following command:
 ```bash
-python train.py --config configs/train_config.yaml
+python train.py 
 ```
-Modify `configs/train_config.yaml` to adjust training parameters and paths.
-
-### Inference
-Run inference on new images:
-```bash
-python infer.py --input image.png --output segmented.png --model_path checkpoints/model.pth
-```
-Ensure `model.pth` is the correct path to your trained model checkpoint.
 
 ## Model Architecture
 DeepSegment employs the U-Net architecture, comprising:
@@ -68,15 +60,6 @@ DeepSegment employs the U-Net architecture, comprising:
 - **Decoder**: Upsampling layers for precise segmentation.
 - **Skip Connections**: Enhanced information flow between encoder and decoder.
 
-## Results
-Showcase your segmentation results, including visual examples and evaluation metrics like IoU and pixel accuracy.
-
-## Contributing
-Contributions are welcome! To contribute:
-1. Fork the repository.
-2. Create a new branch.
-3. Implement your changes.
-4. Push to your fork and submit a pull request.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -85,5 +68,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Acknowledgments to contributors and open-source libraries that facilitated the development of DeepSegment.
 
 ---
-
-This README template provides a structured approach to introducing your image segmentation project, guiding users through installation, usage, and contribution processes while highlighting the project's key features and architecture. Adjust the sections and details to fit your specific project requirements and objectives.
