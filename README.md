@@ -3,7 +3,9 @@
 # DeeplySegment: Semantic Image Segmentation with U-Net
 
 ## Introduction
-DeeplySegment is an advanced image segmentation project based on the powerful U-Net architecture. It allows accurate pixel-level classification of images, enabling applications such as medical image analysis, satellite imagery processing, and more. {Note This is an on-going research project}
+DeeplySegment is an advanced image segmentation project based on the powerful U-Net architecture, specifically designed for medical image analysis. This project focuses on the segmentation of skin lesion images to aid in the early detection and treatment of skin diseases such as melanoma. Our goal is to build a robust model that can accurately segment skin lesions, providing better diagnostic tools for healthcare professionals.
+
+By leveraging the U-Net architecture, DeepSegment aims to achieve high precision and recall in segmenting skin lesions, thereby improving the overall effectiveness of medical image analysis. The model is trained on a diverse set of medical images to ensure it generalizes well to different types of skin lesions. {Note This is an on-going research project}
 
 ## Features
 - **U-Net Architecture**: State-of-the-art deep learning model for image segmentation.
